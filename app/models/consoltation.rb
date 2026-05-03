@@ -1,5 +1,5 @@
 class Consoltation < ApplicationRecord
-  validates :first_name, prescence: true
-  validates :last_name, prescence: true
-  validates :phone, prescence: true
+  validates :first_name, presence: true
+  validates :last_name, presence: true
+  validates :phone, presence: true
 end

@@ -1,4 +1,4 @@
-class ScheduleConsoltationController < ApplicationController
+class ConsoltationsController < ApplicationController
   def create
     @consoltation = Consoltation.new(consoltation_params)
 
@@ -23,7 +23,7 @@ class ScheduleConsoltationController < ApplicationController
       :state,
       :zip_code,
       :email,
-      :phone, 
+      :phone,
       :project_type,
       :has_plans,
       :referral
